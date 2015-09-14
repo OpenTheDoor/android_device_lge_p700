@@ -20,7 +20,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/e610/full_p700.mk)
+$(call inherit-product, device/lge/p700/full_p700.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 800
